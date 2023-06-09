@@ -1,0 +1,15 @@
+/home/usuario/Escritorio/Proyectos C# .Net/bin/Debug/net7.0/Proyectos C# .Net
+/home/usuario/Escritorio/Proyectos C# .Net/bin/Debug/net7.0/Proyectos C# .Net.deps.json
+/home/usuario/Escritorio/Proyectos C# .Net/bin/Debug/net7.0/Proyectos C# .Net.runtimeconfig.json
+/home/usuario/Escritorio/Proyectos C# .Net/bin/Debug/net7.0/Proyectos C# .Net.dll
+/home/usuario/Escritorio/Proyectos C# .Net/bin/Debug/net7.0/Proyectos C# .Net.pdb
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.csproj.AssemblyReference.cache
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.AssemblyInfoInputs.cache
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.AssemblyInfo.cs
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.csproj.CoreCompileInputs.cache
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.dll
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/refint/Proyectos C# .Net.dll
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.pdb
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.genruntimeconfig.cache
+/home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/ref/Proyectos C# .Net.dll
