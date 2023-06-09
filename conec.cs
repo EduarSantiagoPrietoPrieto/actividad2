@@ -11,6 +11,7 @@ class conec
 
         Console.ReadLine();
     }
+    
 }
 
 class ConectorNequi
