@@ -66,9 +66,12 @@
                     break;
                 case 9:
                     Console.WriteLine("9 Sistema de notas universidad ECCI");
+                    sistemaDeEvaluacion sisEval = new sistemaDeEvaluacion();
+                    sisEval.programa();
                     break;
                 case 10:
                     Console.WriteLine("10 Nomina de empleados");
+                    
                     break;
 
 
