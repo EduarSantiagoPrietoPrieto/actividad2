@@ -96,7 +96,7 @@
                         suma = suma + notas[j, i];
                     }
                     promedio = suma / estudiantes;
-                    Console.WriteLine("Promedio de " + estudiante[i] + "=" + promedio);
+                    Console.WriteLine("Promedio de " + estudiante[i] + "=" + promedio.ToString("F1"));
                     suma = 0;
                     promedio = 0;
                 }
