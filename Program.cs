@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    static async void Main()
+    static void Main()
     {
         int opcion;
         do
@@ -49,8 +49,6 @@
                 case 4:
                     
                   Console.WriteLine("Llamando a Conectar de Nequi");
-                ConectorNequi conector = new ConectorNequi();
-                await conector.Conectar();
                     break;
                 case 5:
                     Console.WriteLine("5 Estecion climatica");
