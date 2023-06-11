@@ -51,7 +51,8 @@
                   Console.WriteLine("Llamando a Conectar de Nequi");
                     break;
                 case 5:
-                    Console.WriteLine("5 Estecion climatica");
+                    estacion_climatica res = new estacion_climatica();
+                    res.iniciar();
                     break;
                 case 6:
                     Console.WriteLine("6 Caracterizador de numeros");
