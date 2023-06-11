@@ -14,7 +14,7 @@
             Console.WriteLine("2 Funciones matematicas");
             Console.WriteLine("3 Validador de respuestas");
             Console.WriteLine("4 Produccion semanal");
-            Console.WriteLine("5 Estecion climatica");
+            Console.WriteLine("5 Estacion climatica");
             Console.WriteLine("6 Caracterizador de numeros");
             Console.WriteLine("7 Muestreo de pesos");
             Console.WriteLine("8 Produccion avicola");

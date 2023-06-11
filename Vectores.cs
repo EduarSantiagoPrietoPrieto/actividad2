@@ -1,10 +1,21 @@
 ﻿using System;
 
-public class Vectores
+public class Estacion_climatica
 {
-	public Vectores()
+
+    public Estacion_climatica()
 	{
-		Console.WriteLine("Prueba");
-		string Msg = Console.ReadLine();
+		do {
+            Console.WriteLine("-----------");
+            Console.WriteLine("Prueba");
+            Console.WriteLine("Prueba");
+            Console.WriteLine("Prueba");
+            Console.WriteLine("Prueba");
+            Console.WriteLine("Prueba");
+            string Msg = Console.ReadLine();
+
+        } while (true);
+
+		
 	}
 }
