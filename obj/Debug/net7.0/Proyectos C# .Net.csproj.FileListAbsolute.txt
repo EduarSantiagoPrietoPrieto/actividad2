@@ -13,3 +13,18 @@
 /home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.pdb
 /home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/Proyectos C# .Net.genruntimeconfig.cache
 /home/usuario/Escritorio/Proyectos C# .Net/obj/Debug/net7.0/ref/Proyectos C# .Net.dll
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.csproj.AssemblyReference.cache
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.AssemblyInfoInputs.cache
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.AssemblyInfo.cs
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.dll
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\refint\Proyectos C# .Net.dll
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.pdb
+C:\Users\Carlos\Source\Repos\actividad2\bin\Debug\net7.0\Proyectos C# .Net.exe
+C:\Users\Carlos\Source\Repos\actividad2\bin\Debug\net7.0\Proyectos C# .Net.deps.json
+C:\Users\Carlos\Source\Repos\actividad2\bin\Debug\net7.0\Proyectos C# .Net.runtimeconfig.json
+C:\Users\Carlos\Source\Repos\actividad2\bin\Debug\net7.0\Proyectos C# .Net.dll
+C:\Users\Carlos\Source\Repos\actividad2\bin\Debug\net7.0\Proyectos C# .Net.pdb
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\Proyectos C# .Net.genruntimeconfig.cache
+C:\Users\Carlos\Source\Repos\actividad2\obj\Debug\net7.0\ref\Proyectos C# .Net.dll
