@@ -1,4 +1,6 @@
-﻿class Program
+﻿using Menu;
+
+class Program
 {
     static void Main()
     {
@@ -14,7 +16,7 @@
             Console.WriteLine("2 Funciones matematicas");
             Console.WriteLine("3 Validador de respuestas");
             Console.WriteLine("4 Produccion semanal");
-            Console.WriteLine("5 Estecion climatica");
+            Console.WriteLine("5 Estacion climatica");
             Console.WriteLine("6 Caracterizador de numeros");
             Console.WriteLine("7 Muestreo de pesos");
             Console.WriteLine("8 Produccion avicola");
@@ -29,29 +31,24 @@
             switch (opcion)
             {
                 case 1:
-
                     operacionesMatematicas oprMat = new operacionesMatematicas();
                     oprMat.operaciones();
-
                     break;
                 case 2:
-                    
                     funcionesMatematicas funMat = new funcionesMatematicas();
                     funMat.funciones();
-
                     break;
                 case 3:
-                
                     validadorRespuestas valRes = new validadorRespuestas();
                     valRes.validador();
-
                     break;
                 case 4:
-                    
-                  Console.WriteLine("Llamando a Conectar de Nequi");
+                    ProduccionSemanal res = new ProduccionSemanal();
+                    res.operacion();
                     break;
                 case 5:
-                    Console.WriteLine("5 Estecion climatica");
+                    estacion_climatica apl = new estacion_climatica();
+                    apl.iniciar();
                     break;
                 case 6:
                     Console.WriteLine("6 Caracterizador de numeros");
@@ -60,7 +57,8 @@
                     Console.WriteLine("7 Muestreo de pesos");
                     break;
                 case 8:
-                    Console.WriteLine("8 Produccion avicola");
+                    ProduccionAvicola xml = new ProduccionAvicola();
+                    xml.iniciar();
                     break;
                 case 9:
                     Console.WriteLine("9 Sistema de notas universidad ECCI");
@@ -68,11 +66,9 @@
                     sisEval.programa();
                     break;
                 case 10:
-                    Console.WriteLine("10 Nomina de empleados");
-                    
+                    nomina pk = new nomina();
+                    pk.programa();
                     break;
-
-
             }
 
 
