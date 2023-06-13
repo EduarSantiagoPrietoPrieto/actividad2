@@ -105,7 +105,8 @@
 
                 Console.WriteLine("Desea Repetir la Ejecucion del Programa s / n");
                 continuar = Console.ReadLine();
-            }//Cierre del While
+            Console.Clear();
+        }//Cierre del While
 
 
         }

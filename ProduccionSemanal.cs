@@ -55,6 +55,7 @@ public class ProduccionSemanal
             }
             Console.WriteLine("¿Desea digitar un nuevo empleado s/n?");
             respuesta = Console.ReadLine();
+            Console.Clear();
         } while (respuesta == "s");
 	}
 	public int determinador(int res)

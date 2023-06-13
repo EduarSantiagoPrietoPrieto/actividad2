@@ -48,7 +48,9 @@
                 menor.Add(caja1);
                 mayor.Add(caja2);
             } while (subcadenas[0] != "0" || subcadenas[1] != "0");
-            Console.WriteLine("La cantidad de dias fue:" + mayor.Count() - 1);
+            int res = mayor.Count();
+            res = res - 1;
+            Console.WriteLine("La cantidad de dias fue:" + res);
             Console.WriteLine("El promedio del mayor " + mayor.Max());
             Console.WriteLine("El promedio del menor " + menor.Max());
             Console.WriteLine("La cantidad de dias fallido fueron:" + diasFallidos);
@@ -63,6 +65,7 @@
             Console.WriteLine("El porcentaje que represento fue: " + promedioFallidos);
             Console.WriteLine("Desea ingresar un nuevo esenario s/n");
             continua = Console.ReadLine();
+            Console.Clear();
         } while (continua.Contains("s"));
         
     }

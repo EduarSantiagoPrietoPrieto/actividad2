@@ -6,8 +6,8 @@ public class ProduccionAvicola
     public void iniciar()
 	{
 		string continua = "";
-		do
-		{
+        do
+        {
             double proceso = 0;
             double calculo = 0;
             Console.WriteLine("--------------------------------");
@@ -26,7 +26,8 @@ public class ProduccionAvicola
             Console.WriteLine("El resultado es: " + (proceso + 1));
             Console.WriteLine("Desea continuar s/n");
             continua = Console.ReadLine();
-        } while(continua.Contains("s"))
+            Console.Clear();
+        } while (continua.Contains("s"));
     }
 	public double calcularFactorial(double numero)
 	{
