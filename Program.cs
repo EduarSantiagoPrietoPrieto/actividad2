@@ -5,6 +5,7 @@ class Program
     static void Main()
     {
         int opcion;
+        string salir = "n";
         do
         {
             Console.WriteLine("__________________________________________________");
@@ -21,7 +22,7 @@ class Program
             Console.WriteLine("7 Muestreo de pesos");
             Console.WriteLine("8 Produccion avicola");
             Console.WriteLine("9 Sistema de notas universidad ECCI");
-            Console.WriteLine("10 Nomina d empleados");
+            Console.WriteLine("10 Nomina de empleados");
             Console.WriteLine("11 Calculadora de producto de matrices ");
             Console.WriteLine("12 Crear matrices nxn");
             Console.WriteLine("13 Salir Programa");
@@ -65,7 +66,7 @@ class Program
                     xml.iniciar();
                     break;
                 case 9:
-                    Console.WriteLine("9 Sistema de notas universidad ECCI");
+                   
                     sistemaDeEvaluacion sisEval = new sistemaDeEvaluacion();
                     sisEval.programa();
                     break;
@@ -81,11 +82,29 @@ class Program
                     Matrices2 qq = new Matrices2();
                     qq.program();
                     break;
+                case 13:
+                    Console.WriteLine("Seguro que quieres salir? s/n");
+                    salir = Console.ReadLine();
+                    if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
+                    break;
+           
                 default:
                     Console.WriteLine("Opcion invalida");
                     break;
             }
-        } while (opcion != 13);
+        } while (salir != "s");
 
     }
 }

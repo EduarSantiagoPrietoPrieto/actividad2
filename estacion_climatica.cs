@@ -2,7 +2,7 @@
 {
     public void iniciar()
     {
-        String continua = "";
+        String salir = "n";
         do
         {
             string[] subcadenas;
@@ -65,9 +65,23 @@
             }
             Console.WriteLine("El porcentaje que represento fue: " + promedioFallidos);
             Console.WriteLine("Desea ingresar un nuevo esenario s/n");
-            continua = Console.ReadLine();
+            salir = Console.ReadLine();
+            if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
+                
             Console.Clear();
-        } while (continua.Contains("s"));
+        } while (salir != "s");
         
     }
 }

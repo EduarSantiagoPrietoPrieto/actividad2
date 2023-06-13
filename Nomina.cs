@@ -21,8 +21,8 @@ namespace Menu
             double salud, pension, prestamos, fondo_solidaridad;
             double total_deducido, neto_pagado;
             //Variables de entrada
-            String continuar = "s";
-            while (continuar == "s")
+            string salir = "s";
+            while (salir.ToLower() == "s")
             {
                 Console.Clear();
                 Console.WriteLine("Universidad Ecci");
@@ -123,8 +123,16 @@ namespace Menu
                 Console.WriteLine("Total Deducido = " + total_deducido);
                 Console.WriteLine("Neto Pagado = " + neto_pagado);
                 Console.WriteLine("Desea Liquidar otro empleado s / n");
-                continuar = Console.ReadLine();
+                salir = Console.ReadLine();
+                if (salir.ToLower() != "s" && salir.ToLower() != "n")
+                {
+                    Console.WriteLine("Opción inválida. Saliendo del programa.");
+                    break;
+                }
+
             }//Cierre del While
+
+
 
 
         }

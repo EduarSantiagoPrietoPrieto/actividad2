@@ -7,7 +7,7 @@ public class ProduccionSemanal
         int caso;
 		
         string[] dias = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado" };
-        string respuesta;
+        string salir = "n";
 		do
 		{
             List<int> list = new List<int>();
@@ -54,9 +54,22 @@ public class ProduccionSemanal
                     break;
             }
             Console.WriteLine("¿Desea digitar un nuevo empleado s/n?");
-            respuesta = Console.ReadLine();
+            salir = Console.ReadLine();
+               if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
             Console.Clear();
-        } while (respuesta == "s");
+        } while (salir != "n");
 	}
 	public int determinador(int res)
 	{

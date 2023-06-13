@@ -5,7 +5,7 @@ public class ProduccionAvicola
 
     public void iniciar()
 	{
-		string continua = "";
+		string salir = "n";
         do
         {
             double proceso = 0;
@@ -24,10 +24,22 @@ public class ProduccionAvicola
                 proceso = proceso + calculo;
             }
             Console.WriteLine("El resultado es: " + (proceso + 1));
-            Console.WriteLine("Desea continuar s/n");
-            continua = Console.ReadLine();
-            Console.Clear();
-        } while (continua.Contains("s"));
+            Console.WriteLine("Quieres realizar otra consulta? s/n");
+                    salir = Console.ReadLine();
+                    if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
+        } while (salir != "n");
     }
 	public double calcularFactorial(double numero)
 	{

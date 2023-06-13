@@ -4,7 +4,7 @@ public class MuestreoPesos
 {
 	public void programa()
 	{
-        string caso = "";
+        string salir = "n";
         do
         {
             Console.Clear();
@@ -59,9 +59,22 @@ public class MuestreoPesos
             Console.WriteLine($"Promedio de peso de los viejos: {promedioPesoViejos}");
 
             Console.WriteLine("¿Desea ingresar de nuevo? s/n");
-            caso = Console.ReadLine();
+            salir = Console.ReadLine();
+                 if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
             Console.Clear();
-        } while (caso == "s");
+        } while (salir != "s");
         Console.ReadLine();
     }
 }

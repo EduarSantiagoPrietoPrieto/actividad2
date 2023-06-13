@@ -4,7 +4,7 @@ public class Matrices2
 {
 	public void program()
 	{
-        string caso = "";
+        string salir = "n";
         do
         {
             Console.Clear();
@@ -40,14 +40,7 @@ public class Matrices2
             // Encontrar el elemento mínimo
             int minimo = EncontrarElementoMinimo(matriz);
             // Imprimir el resultado
-            /*for (int i = 0; i < filas; i++)
-            {
-                for (int j = 0; i < columnas; j++)
-                {
-                    Console.Write(matriz[i, j] + " ");
-                }
-                Console.WriteLine();
-            }*/
+       
             Console.WriteLine("El elemento mínimo en la matriz es: " + minimo);
             Console.WriteLine("Matriz");
             for (int i = 0; i < filas; i++){
@@ -57,9 +50,22 @@ public class Matrices2
                 Console.WriteLine(" ");
             }
             Console.WriteLine("¿Desea ingresar de nuevo? s/n");
-            caso = Console.ReadLine();
+            salir = Console.ReadLine();
+                 if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
             Console.Clear();
-        } while (caso == "s");
+        } while (salir != "s");
     }
 
     static void LlenarMatrizManualmente(int[,] matriz)

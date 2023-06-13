@@ -12,7 +12,7 @@ class validadorRespuestas
         int respuestasIncorrecttas;
         int respuestasEnBlanco;
         int puntajeFinal;
-        string opc, nombre ;
+        string salir ="s", nombre ;
         do
         {
             Console.WriteLine("Validador de respuestas");
@@ -27,8 +27,21 @@ class validadorRespuestas
             puntajeFinal = respuestasCorrecttas * 4 + respuestasIncorrecttas * -1 + respuestasEnBlanco * 0;
             Console.WriteLine("El puntaje final del postulante " + nombre + " es de " + puntajeFinal);
             Console.WriteLine("Desea realizar otra validacion (s = si) (n = no)");
-            opc = Console.ReadLine(); //
+            salir = Console.ReadLine(); //
+                if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
             Console.Clear();
-        } while (opc != "n");
+        } while (salir != "n");
     }
 }   

@@ -4,10 +4,10 @@ public class Matrices1
 {
 	public void program()
 	{
-        string caso = "";
+        string salir = "n";
         do
         {
-            Console.Clear();
+            
             // Solicitar al usuario el tamaño de los vectores
             Console.Write("Ingrese el tamaño de los vectores: ");
             int tamaño = int.Parse(Console.ReadLine());
@@ -38,9 +38,22 @@ public class Matrices1
             // Imprimir el resultado
             Console.WriteLine("El producto punto de los vectores es: " + productoPunto);
             Console.WriteLine("¿Desea ingresar de nuevo? s/n");
-            caso = Console.ReadLine();
+            salir = Console.ReadLine();
+                 if (salir == "S" || salir == "s")
+                    {
+                        salir = "s";
+
+                    }
+                    else if (salir == "n" || salir == "N")
+                    {
+                        salir = "n";
+                    }
+                    else
+                    {
+                        Console.WriteLine("opcion invalida");
+                    }
             Console.Clear();
-        } while (caso == "s");
+        } while (salir != "s");
     }
     static int CalcularProductoPunto(int[] vector1, int[] vector2)
     {
