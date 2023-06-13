@@ -7,6 +7,7 @@ public class Caracterizador_de_numeros
         string caso = "";
         do
         {
+            Console.Clear();
             Console.Write("Ingrese la cantidad de números: ");
             int cantidadNumeros = int.Parse(Console.ReadLine());
 

@@ -12,6 +12,7 @@
             double promedioFallidos = 0;
             do
             {
+                Console.Clear();
                 Console.WriteLine("---------------------------");
                 Console.WriteLine("---------------------------");
                 Console.WriteLine("Por favor ingrese los valores maximo y minimo de la siguiente forma 15,20");
@@ -36,7 +37,7 @@
                 {
                     diasFallidos++;
                 }
-                int caja1 = Convert.ToInt32(subcadenas[0]);
+                int caja1 = Convert.ToInt32(subcadenas[0]); 
                 int caja2 = Convert.ToInt32(subcadenas[1]);
                 if (caja1 > caja2)
                 {

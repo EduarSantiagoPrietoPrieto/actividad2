@@ -7,8 +7,9 @@ public class MuestreoPesos
         string caso = "";
         do
         {
+            Console.Clear();
             Console.Write("Ingrese la cantidad de personas en el muestreo: ");
-            int cantidadPersonas = int.Parse(Console.ReadLine());
+            int cantidadPersonas = Convert.ToInt32(Console.ReadLine());
             int contadorNinos = 0;
             int contadorJovenes = 0;
             int contadorAdultos = 0;
@@ -20,9 +21,9 @@ public class MuestreoPesos
             for (int i = 1; i <= cantidadPersonas; i++)
             {
                 Console.Write($"Ingrese la edad de la persona #{i}: ");
-                int edad = int.Parse(Console.ReadLine());
+                int edad = Convert.ToInt32(Console.ReadLine());
                 Console.Write($"Ingrese el peso de la persona #{i}: ");
-                double peso = double.Parse(Console.ReadLine());
+                double peso = Convert.ToDouble(Console.ReadLine());
                 if (edad >= 0 && edad <= 13)
                 {
                     contadorNinos++;

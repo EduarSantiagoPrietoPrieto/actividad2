@@ -7,6 +7,7 @@ public class Matrices2
         string caso = "";
         do
         {
+            Console.Clear();
             // Solicitar al usuario el tamaño de la matriz
             Console.Write("Ingrese el número de filas de la matriz: ");
             int filas = int.Parse(Console.ReadLine());

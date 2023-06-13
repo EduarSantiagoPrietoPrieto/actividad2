@@ -11,6 +11,7 @@ class funcionesMatematicas
         {
             do
             {
+                Console.Clear();
                 Console.WriteLine("Funciones matematicas");
                 Console.WriteLine("1 Obtener el valor maximo");
                 Console.WriteLine("2 Obtener el valor minimo");

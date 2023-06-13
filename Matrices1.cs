@@ -7,6 +7,7 @@ public class Matrices1
         string caso = "";
         do
         {
+            Console.Clear();
             // Solicitar al usuario el tamaño de los vectores
             Console.Write("Ingrese el tamaño de los vectores: ");
             int tamaño = int.Parse(Console.ReadLine());
