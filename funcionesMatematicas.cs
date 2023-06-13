@@ -7,8 +7,7 @@ class funcionesMatematicas
         double numero2;
         int opc;
         string caso = "";
-        do
-        {
+       
             do
             {
                 Console.Clear();
@@ -123,9 +122,9 @@ class funcionesMatematicas
                         break;
                 }
             } while (opc != 11);
-            Console.WriteLine("¿Desea ingresar de nuevo? s/n");
+          
             Console.Clear();
-        } while (caso == "s");
+     
         
     }
 
