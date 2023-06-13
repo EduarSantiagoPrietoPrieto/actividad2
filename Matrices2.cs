@@ -41,6 +41,13 @@ public class Matrices2
             int minimo = EncontrarElementoMinimo(matriz);
             // Imprimir el resultado
             Console.WriteLine("El elemento mínimo en la matriz es: " + minimo);
+            Console.WriteLine("Matriz");
+            for (int i = 0; i < filas; i++){
+                for(int j = 0; j < columnas; j++){
+                    Console.Write(matriz[i, j]+" ");
+                }
+                Console.WriteLine(" ");
+            }
             Console.WriteLine("¿Desea ingresar de nuevo? s/n");
             caso = Console.ReadLine();
             Console.Clear();
