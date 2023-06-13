@@ -28,7 +28,7 @@ class validadorRespuestas
             Console.WriteLine("El puntaje final del postulante " + nombre + " es de " + puntajeFinal);
             Console.WriteLine("Desea realizar otra validacion (s = si) (n = no)");
             opc = Console.ReadLine(); //
-
+            Console.Clear();
         } while (opc != "n");
     }
 }   

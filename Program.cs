@@ -22,7 +22,9 @@ class Program
             Console.WriteLine("8 Produccion avicola");
             Console.WriteLine("9 Sistema de notas universidad ECCI");
             Console.WriteLine("10 Nomina d empleados");
-            Console.WriteLine("11 Salir Programa");
+            Console.WriteLine("11 Calculadora de producto de matrices ");
+            Console.WriteLine("12 Crear matrices nxn");
+            Console.WriteLine("13 Salir Programa");
             Console.WriteLine("Dijite el numero de solucion a realizar");
             Console.WriteLine("__________________________________________________");
 
@@ -51,10 +53,12 @@ class Program
                     apl.iniciar();
                     break;
                 case 6:
-                    Console.WriteLine("6 Caracterizador de numeros");
+                    Caracterizador_de_numeros ppp = new Caracterizador_de_numeros();
+                    ppp.program();
                     break;
                 case 7:
-                    Console.WriteLine("7 Muestreo de pesos");
+                    MuestreoPesos pp = new MuestreoPesos();
+                    pp.programa();
                     break;
                 case 8:
                     ProduccionAvicola xml = new ProduccionAvicola();
@@ -69,10 +73,19 @@ class Program
                     nomina pk = new nomina();
                     pk.programa();
                     break;
+                case 11:
+                    Matrices1 q = new Matrices1();
+                    q.program();
+                    break;
+                case 12:
+                    Matrices2 qq = new Matrices2();
+                    qq.program();
+                    break;
+                default:
+                    Console.WriteLine("Opcion invalida");
+                    break;
             }
-
-
-        } while (opcion != 11);
+        } while (opcion != 13);
 
     }
 }
